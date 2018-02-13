@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">lottery</string>
+    <string name="app_name">彩票</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_dcb">双色球</string>
+    <string name="title_intelligent_choose_ball">智能选球</string>
+    <string name="title_history">历史</string>
+    <string name="title_activity_dcb_history">HistoryActivity</string>
 </resources>

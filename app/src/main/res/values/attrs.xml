@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="count" format="integer" />
+    <attr name="lineSpace" format="dimension" />
+    <attr name="columnSpace" format="dimension" />
+    <attr name="ballWidth" format="dimension" />
+    <attr name="ballHeight" format="dimension" />
+    <attr name="ballBg" format="reference" />
+    <declare-styleable name="BallLayout">
+        <attr name="count" />
+        <attr name="lineSpace" />
+        <attr name="columnSpace" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="ballWidth" />
+        <attr name="ballHeight" />
+        <attr name="ballBg" />
+    </declare-styleable>
+</resources>

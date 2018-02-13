@@ -82,6 +82,8 @@ obj/
 .idea/uiDesigner.xml
 .idea/gradle.xml
 .idea/runConfigurations.xml
+.idea/kotlinc.xml
+.idea/sonarlint
 
 # OS-specific files
 .DS_Store

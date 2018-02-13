@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.jingtuo.android.lottery">
 
     <application
@@ -17,6 +18,25 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".page.dcb.choose.ChooseBallActivity"
+            android:label="@string/title_dcb"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:targetApi="jelly_bean">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jingtuo.android.lottery.MainActivity" />
+        </activity>
+        <activity
+            android:name=".page.dcb.history.DcbHistoryActivity"
+            android:label="@string/title_activity_dcb_history"
+            android:parentActivityName=".page.dcb.choose.ChooseBallActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jingtuo.android.lottery.page.dcb.choose.ChooseBallActivity" />
         </activity>
     </application>
 
